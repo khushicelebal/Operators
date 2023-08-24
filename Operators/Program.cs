@@ -29,7 +29,7 @@ namespace Operators
             //result = (x % y);
             //Console.WriteLine("Modulo: " + result);
 
-            
+
             //Unary operators
             //int a = 1, result;
             //result = ((a++) + (++a));
@@ -119,7 +119,12 @@ namespace Operators
             //result = x >> 2;
             //Console.WriteLine("Bitwise Right Shift: " + result);
 
-
+            ////Conditional operators
+            int x = 15, y = 98, result;
+            result = x > y ? x : y;
+            Console.WriteLine("Result: " + result);
+            result = x < y ? x : y;
+            Console.WriteLine("Result: " + result);
 
         }
     }
